@@ -171,6 +171,16 @@ h1 {
       font-weight: bold;
   }
 
+.p1_projets {
+    position: relative; top: -80px; left: 0px; font-size: 27px;"
+}
+
+.img_projets{
+
+}
+
+
+
   .img_informatique{
       height: 500px;
       width: 500px;
@@ -180,16 +190,19 @@ h1 {
   .txtinformatique{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: white;
-   position: static; top: -350px; left: 300px;
    width: 1000px;
    height: 100px;
    font-size: 22px;
   }
 
   .rectangle_txt{
-      position: relative; top: -350px; left: 300px;
-      width: 1000px;
-      height: 340px;
+      margin-left: 200px;
+      margin-top: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1000px;
+      height: 500px;
       padding-top: 18px;
       background-color: #282D32;
       border-radius: 40px 40px 40px 40px;
@@ -272,6 +285,10 @@ h1 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative; top: -1050px; left: -10px;
   font-size: 19px;
+}
+
+.p_projets{
+
 }
 
 .python {
@@ -383,11 +400,49 @@ h1 {
     }
 
     .txtinformatique{
-        text-align: center;
-        height: auto;
     }
 
     .rectangle_txt{
-        width: auto;
+        font-size: 10px;
+        max-width: 400px;
+        padding-left: 0px;
+    }
+
+    .p_projets{
+        font-family: Poppins;
+        margin-left: 40px;
+     max-width: 490px;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .h1_projets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p1_projets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_projets{
+        margin-left: 100px;
+        padding-bottom: 200px;
+        max-width: 400px;
+    }
+
+    .img_projets .img:nth-child(5){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pink {
+        background: #ff0066;
+        overflow: hidden;
+        height: 1500px;
     }
 }
