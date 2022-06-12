@@ -82,7 +82,7 @@ body{
  }
 
 @media screen and (max-width: 600px){
-    body{
+    form{
         transform: scale(2);
     }
 }
