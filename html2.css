@@ -80,3 +80,12 @@ body{
      border-bottom: 2px solid #78788c;
      width:260px;
  }
+
+@media screen and (max-width: 600px){
+    body{
+        scale:5;
+    }
+}
+    
+    
+    
