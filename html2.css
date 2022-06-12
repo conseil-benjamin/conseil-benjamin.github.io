@@ -83,7 +83,7 @@ body{
 
 @media screen and (max-width: 600px){
     body{
-        scale:5;
+        scale:200%;
     }
 }
     
