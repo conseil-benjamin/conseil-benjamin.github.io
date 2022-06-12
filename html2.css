@@ -81,7 +81,7 @@ body{
      width:260px;
  }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1000px){
     .form{
         transform: scale(2);
     }
